@@ -152,7 +152,8 @@ nav ul li a {
     font-size: 16px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(45deg, #7F00FF, #E100FF, #FF7000);
+    background-size: 150% 150%;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -160,11 +161,11 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-position: 100% 0;
     transform: scale(1.05);
 }
 
 .btn:active {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-position: 50% 50%;
     transform: scale(0.95);
 }
