@@ -160,19 +160,7 @@ nav ul li a {
     }
 }
 
-/* @media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .main-content p {
-        font-size: 1em;
-    }
-} */
+
 
 .button-container {
     display: flex;
@@ -201,3 +189,99 @@ nav ul li a {
     background-position: 50% 50%;
     transform: scale(0.95);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Popup Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #1f1f1f;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Language Selector Styles */
+.language-selector {
+    margin-top: 20px;
+}
+
+.language-selector select {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #7F00FF, #E100FF, #FF7000);
+    background-size: 150% 150%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align-last: center;
+    background-color: #4c4c4c; /* background color when closed */
+    color: white; /* font color */
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); /* font shadow */
+}
+
+.language-selector select:hover {
+    background-position: 100% 0;
+    transform: scale(1.05);
+}
+
+.language-selector select:active {
+    background-position: 50% 50%;
+    transform: scale(0.95);
+}
+
+
+
+
+
